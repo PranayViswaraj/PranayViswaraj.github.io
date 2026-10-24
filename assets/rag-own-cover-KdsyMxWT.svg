@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0812"/><stop offset="1" stop-color="#161028"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset=".4" stop-color="#8b5cf6"/><stop offset=".72" stop-color="#ec4899"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#b6b1c9"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="800" cy="520" r="330" fill="url(#glow)"/>
+  <text x="90" y="130" fill="#fff" font-size="64" font-weight="800">RAG Knowledge Assistant</text>
+  <rect x="92" y="156" width="190" height="6" rx="3" fill="url(#g)"/>
+  <text x="90" y="215" fill="#b6b1c9" font-size="28">1,000+ documents · chunk-aware indexing · query rewriting · grounded answers</text>
+
+  <g transform="translate(110,370)">
+    <g fill="#15101f" stroke="#3b82f6" stroke-width="2">
+      <rect x="24" y="-24" width="170" height="220" rx="14" opacity=".5"/>
+      <rect x="12" y="-12" width="170" height="220" rx="14" opacity=".75"/>
+      <rect x="0" y="0" width="170" height="220" rx="14"/>
+    </g>
+    <g stroke="#b6b1c9" stroke-opacity=".55" stroke-width="6" stroke-linecap="round">
+      <path d="M28 44H140M28 74H120M28 104H142M28 134H104M28 164H132"/>
+    </g>
+    <text x="85" y="268" fill="#b6b1c9" font-size="22" text-anchor="middle">Knowledge base</text>
+  </g>
+  <path d="M330 480H420" stroke="#b6b1c9" stroke-width="3" marker-end="url(#ar)"/>
+
+  <g transform="translate(440,380)" stroke-width="2">
+    <rect x="0" y="0" width="80" height="56" rx="10" fill="#1b1530" stroke="#3b82f6"/>
+    <rect x="96" y="0" width="80" height="56" rx="10" fill="#1b1530" stroke="#6d6af5"/>
+    <rect x="0" y="72" width="80" height="56" rx="10" fill="#1b1530" stroke="#8b5cf6"/>
+    <rect x="96" y="72" width="80" height="56" rx="10" fill="#1b1530" stroke="#a75bf0"/>
+    <rect x="0" y="144" width="80" height="56" rx="10" fill="#1b1530" stroke="#c15be0"/>
+    <rect x="96" y="144" width="80" height="56" rx="10" fill="#1b1530" stroke="#ec4899"/>
+    <text x="88" y="250" fill="#b6b1c9" font-size="22" text-anchor="middle" stroke="none">Chunks</text>
+  </g>
+  <path d="M640 480H730" stroke="#b6b1c9" stroke-width="3" marker-end="url(#ar)"/>
+
+  <g transform="translate(800,480)">
+    <circle r="150" fill="none" stroke="url(#g)" stroke-width="2" stroke-dasharray="4 8"/>
+    <g fill="#8b5cf6">
+      <circle cx="-80" cy="-60" r="7"/><circle cx="-30" cy="-95" r="6" fill="#3b82f6"/><circle cx="40" cy="-70" r="7"/>
+      <circle cx="90" cy="-20" r="6" fill="#ec4899"/><circle cx="-100" cy="20" r="6" fill="#3b82f6"/><circle cx="-50" cy="60" r="7"/>
+      <circle cx="20" cy="95" r="6" fill="#ec4899"/><circle cx="80" cy="60" r="7" fill="#f97316"/><circle cx="-10" cy="-20" r="6" fill="#3b82f6"/>
+    </g>
+    <circle cx="35" cy="10" r="58" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+    <g stroke="#fff" stroke-opacity=".5" stroke-width="2"><path d="M35 10L90-20M35 10L80 60M35 10L-10-20"/></g>
+    <circle cx="35" cy="10" r="11" fill="#fff"/>
+    <text y="200" fill="#b6b1c9" font-size="22" text-anchor="middle">Vector index · nearest neighbours</text>
+  </g>
+  <path d="M970 480H1060" stroke="#b6b1c9" stroke-width="3" marker-end="url(#ar)"/>
+
+  <g transform="translate(1080,330)">
+    <rect width="420" height="300" rx="20" fill="#15101f" stroke="url(#g)" stroke-width="2.5"/>
+    <rect x="24" y="24" width="320" height="44" rx="22" fill="#2b3bff" fill-opacity=".25" stroke="#3b82f6"/>
+    <text x="44" y="53" fill="#fff" font-size="20">Q: rewritten, clarified query</text>
+    <g stroke="#ffffff" stroke-opacity=".6" stroke-width="7" stroke-linecap="round">
+      <path d="M30 110H360M30 145H330M30 180H370M30 215H260"/>
+    </g>
+    <g font-size="18" font-weight="700">
+      <rect x="30" y="242" width="46" height="32" rx="8" fill="#8b5cf6" fill-opacity=".3" stroke="#8b5cf6"/><text x="53" y="264" fill="#fff" text-anchor="middle">[1]</text>
+      <rect x="86" y="242" width="46" height="32" rx="8" fill="#ec4899" fill-opacity=".3" stroke="#ec4899"/><text x="109" y="264" fill="#fff" text-anchor="middle">[2]</text>
+      <rect x="142" y="242" width="46" height="32" rx="8" fill="#f97316" fill-opacity=".3" stroke="#f97316"/><text x="165" y="264" fill="#fff" text-anchor="middle">[3]</text>
+    </g>
+    <text x="210" y="350" fill="#b6b1c9" font-size="22" text-anchor="middle">Grounded answer with sources</text>
+  </g>
+</svg>
